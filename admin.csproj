@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\btn-login.png" />
+    <None Remove="img\Buscador.png" />
+    <None Remove="img\habitacion.png" />
+    <None Remove="img\img-cover-login.png" />
+    <None Remove="img\Login.png" />
+    <None Remove="img\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\btn-login.png" />
+    <Resource Include="img\Buscador.png" />
+    <Resource Include="img\habitacion.png" />
+    <Resource Include="img\img-cover-login.png" />
+    <Resource Include="img\Login.png" />
+    <Resource Include="img\Logo.png" />
+  </ItemGroup>
+
+</Project>
