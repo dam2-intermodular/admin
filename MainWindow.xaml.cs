@@ -21,5 +21,15 @@ namespace admin {
         public MainWindow() {
             InitializeComponent();
         }
+
+        private void loginClicked(object sender, MouseButtonEventArgs e) {
+            if (email.Text.Length == 0 || password.Password.Length == 0)
+                MessageBox.Show("Debes introducir un correo y una contraseña.", "Error");
+            else {
+                HomeScreen hv = new HomeScreen();
+                hv.Show();
+                Close();
+            }
+        }
     }
 }
