@@ -23,5 +23,11 @@ namespace admin
         {
             InitializeComponent();
         }
+
+        private void returnClick(object sender, MouseButtonEventArgs e) {
+            MainWindow mv = new MainWindow();
+            mv.Show();
+            Close();
+        }
     }
 }
